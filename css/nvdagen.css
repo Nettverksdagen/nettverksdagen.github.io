@@ -12,6 +12,10 @@ body {
 	display: inline;
 }
 
+h1.logoType {
+	font-size: 66px;
+}
+
 .logoType {
 	font-family: "Larke Sans Light";
 }
@@ -27,6 +31,14 @@ body {
 	background-image: url("/img/400px-Regular_hexagon.png");
 	background-size: contain;
 	background-repeat: no-repeat;
+}
+
+.announcementContainer {
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
 }
 
 .hex-container * {
