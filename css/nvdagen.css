@@ -1,0 +1,8 @@
+body {
+	padding-top: 50px;
+}
+
+.navbar-brand img {
+	height: 100%;
+	display: inline;
+}
