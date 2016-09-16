@@ -18,6 +18,12 @@ h1.logoType {
     margin-top: 0;
 }
 
+h2.logoType {
+	font-size: 44px;
+	padding-top: 0;
+    margin-top: 0;
+}
+
 .row {
 	max-width: 1150px;
 	margin: 0 auto;
