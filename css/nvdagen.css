@@ -14,6 +14,13 @@ body {
 
 h1.logoType {
 	font-size: 66px;
+	padding-top: 0;
+    margin-top: 0;
+}
+
+.row {
+	max-width: 1150px;
+	margin: 0 auto;
 }
 
 .logoType {
@@ -22,6 +29,24 @@ h1.logoType {
 
 .landingPage {
 	height: 30em;
+}
+
+.navbar-brand {
+	padding: 0;
+}
+
+.navbar-brand img {
+    height: 100%;
+    display: inline;
+}
+
+.navbar-nav {
+	font-size: 17px;
+}
+
+.navbar-brand .logoType {
+    font-size: 30px;
+    vertical-align: -1px;
 }
 
 .hex-container {
@@ -46,4 +71,17 @@ h1.logoType {
     position: relative;
     transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
+}
+
+.companySection {
+
+}
+
+.companySection .company .imgContainer {
+	height: 5em;
+	width: 5em;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("/img/400px-Regular_hexagon.png");
+	margin: 0 auto;
 }
