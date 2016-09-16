@@ -2,6 +2,11 @@ body {
 	padding-top: 50px;
 }
 
+@font-face {
+  font-family: "Larke Sans Light";
+  src: url("/fonts/Larke_Sans_Light.ttf") format("truetype");
+}
+
 .navbar-brand img {
 	height: 100%;
 	display: inline;
