@@ -1,5 +1,5 @@
 body {
-	padding-top: 50px;
+	padding-top: 40px;
 }
 
 @font-face {
@@ -16,6 +16,15 @@ h1.logoType {
 	font-size: 66px;
 	padding-top: 0;
     margin-top: 0;
+}
+
+.infoCol-text ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.infoCol .hex-container .glyphicon {
+	font-size: 3em;
 }
 
 h2.logoType {
@@ -35,6 +44,7 @@ h2.logoType {
 
 .landingPage {
 	height: 30em;
+	background-image: url(/img/hexellence.png);
 }
 
 .navbar-brand {
