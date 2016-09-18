@@ -178,12 +178,13 @@ h2.logoType {
     padding: 2em 0 2em 0;
 }
 
-.footerContainer {
+.container-fluid.footerContainer {
     background-color: #fff;
     color: #777;
     border-top: solid 1px #eee;
     padding-bottom: 1.25em;
     text-align: center;
+	padding-top: 0em;
 }
 
 .companySection .company .imgContainer#ABB {
