@@ -1,0 +1,13 @@
+﻿<header>Kontakt oss</header>
+<content>
+	<ul>
+		<li>
+			<span>Markedsføring: <a href="mailto:somebody@nvdagen.no" target="_BLANK">somebody@nvdagen.no</a></span>
+			<p>For forspørsler angående... noe.</p>
+		</li>
+		<li>
+			<span>IT/web: <a href="mailto:somebody@nvdagen.no" target="_BLANK">somebody@nvdagen.no</a></span>
+			<p>For forspørsler angående... noe.</p>
+		</li>
+	</ul>
+</content>
