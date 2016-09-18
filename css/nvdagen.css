@@ -159,11 +159,40 @@ h2.logoType {
 }
 
 .companySection .company .imgContainer {
-	cursor: pointer;
-	height: 10em;
-	width: 10em;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-image: url("/Nettverksdagen/Nettverksdagen_Logo_transparent.png");
-	margin: 0 auto;
+    cursor: pointer;
+    height: 6em;
+    width: 6em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("/Nettverksdagen/Nettverksdagen_Logo_transparent.png");
+    margin: 0 auto;
+    background-position: 50% 50%;
+}
+
+.companySection .company .imgContainer#ABB {
+    background-image: url("/img/cLogos/ABB_Logo.png");
+}
+
+.companySection .company .imgContainer#kBerg {
+    background-image: url("/img/cLogos/Kongsberg_Automotive.png");
+}
+
+.companySection .company .imgContainer#sSteria {
+    background-image: url("/img/cLogos/SopraSteria_logo.png");
+}
+
+.companySection .company .imgContainer#bVoll {
+    background-image: url("/img/cLogos/Brunvoll_logo.png");
+}
+
+.companySection .company .imgContainer#prediktor {
+    background-image: url("/img/cLogos/Prediktor_logo.png");
+}
+
+.companySection .company .imgContainer#cisco {
+    background-image: url("/img/cLogos/Cisco_logo.png");
+}
+
+.companySection .company .imgContainer#statnett {
+    background-image: url("/img/cLogos/Statnett_logo.png");
 }
