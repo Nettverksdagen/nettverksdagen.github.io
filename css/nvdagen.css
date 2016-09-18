@@ -1,6 +1,6 @@
 body {
 	padding-top: 40px;
-	background-image: url(/img/hexellence.png);
+	background-image: url(/img/vvlight_honeycomb_@2X.png);
 }
 
 @font-face {
@@ -11,6 +11,28 @@ body {
 .navbar-brand img {
 	height: 100%;
 	display: inline;
+    left: 0px;
+    position: relative;
+    transition: left 0.5s ease;
+}
+
+.navbar-brand:hover img {
+    left: -5px;
+}
+
+.navbar .container {
+	position: relative;
+}
+
+.brandBG {
+    position: absolute;
+    left: -100%;
+    top: 0;
+    bottom: 0;
+    background: #236761;
+    width: 100%;
+    margin-left: 25px;
+	z-index: -1;
 }
 
 h1.logoType {
@@ -88,6 +110,17 @@ h2.logoType {
 	background-image: url("/img/400px-Regular_hexagon_solidFill.png");
 	background-size: contain;
 	background-repeat: no-repeat;
+    transition: width 0.5s ease, top 0.5s ease, margin 0.5s ease, height 0.5s ease;
+	margin-bottom: 0em;
+	top: 0em;
+	position: relative;
+}
+
+.hex-container:hover {
+    width: 11em;
+    height: 11em;
+    top: -0.5em;
+    margin-bottom: -1em;
 }
 
 .hex-container.smallHex {
