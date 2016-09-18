@@ -35,6 +35,24 @@ body {
     top: 0;
 }
 
+/*.navbar .navbar-nav {
+  display: inline-block;
+  float: right;
+  vertical-align: top;
+}
+
+@media (min-width: 1200px) {
+	.navbar .container {
+		width: 892px !important;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar .container {
+		width: 703px;
+	}
+}*/
+
 h1.logoType {
 	font-size: 66px;
 	padding-top: 0;
