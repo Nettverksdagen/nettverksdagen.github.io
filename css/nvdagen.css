@@ -65,7 +65,8 @@ h2.logoType {
 	font-family: "Larke Sans Light";
 }
 
-.landingPage {
+.container-fluid.landingPage {
+	padding-top: 0em;
 	height: 30em;
 	/*background: rgba(255,255,255,1);
 	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(254,254,254,1) 49%, rgba(252,252,252,0) 100%);
@@ -153,6 +154,10 @@ h2.logoType {
     position: relative;
     transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
+}
+
+.container-fluid {
+	padding-top: 2em;
 }
 
 .companySection {
