@@ -98,7 +98,7 @@ h2.logoType {
 	font-size: 17px;
 }
 
-.navbar-brand .logoType {
+.navbar-brand .logoType, .footerContainer .logoType {
     font-size: 30px;
     vertical-align: -1px;
 }
@@ -167,6 +167,18 @@ h2.logoType {
     background-image: url("/Nettverksdagen/Nettverksdagen_Logo_transparent.png");
     margin: 0 auto;
     background-position: 50% 50%;
+}
+
+.companySection .row .company {
+    padding: 2em 0 2em 0;
+}
+
+.footerContainer {
+    background-color: #fff;
+    color: #777;
+    border-top: solid 1px #eee;
+    padding-bottom: 1.25em;
+    text-align: center;
 }
 
 .companySection .company .imgContainer#ABB {
