@@ -1,0 +1,4 @@
+﻿<header>Firmanavn</header>
+<content>
+	Om firmaet
+</content>

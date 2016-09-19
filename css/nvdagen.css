@@ -181,6 +181,7 @@ h2.logoType {
 .companySection {
 }
 
+
 .companySection .company .imgContainer {
     cursor: pointer;
     height: 6em;
@@ -190,6 +191,10 @@ h2.logoType {
     background-image: url("/Nettverksdagen/Nettverksdagen_Logo_transparent.png");
     margin: 0 auto;
     background-position: 50% 50%;
+}
+
+.companySection .company .hex-container {
+	cursor: pointer;
 }
 
 .companySection .row .company {
