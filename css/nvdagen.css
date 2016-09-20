@@ -35,7 +35,7 @@ body {
     top: 0;
 }
 
-/*.navbar .navbar-nav {
+.navbar .navbar-nav {
   display: inline-block;
   float: right;
   vertical-align: top;
@@ -51,7 +51,7 @@ body {
 	.navbar .container {
 		width: 703px;
 	}
-}*/
+}
 
 h1.logoType {
 	font-size: 66px;
