@@ -24,6 +24,10 @@ body {
 	position: relative;
 }
 
+.navbar-toggle {
+	border-radius: 0px !important;
+}
+
 .brandBG {
     position: absolute;
     left: -100%;
