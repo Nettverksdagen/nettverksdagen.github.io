@@ -44,7 +44,7 @@ body {
 	box-shadow: none !important;
 }
 
-.triEdge {
+/*.triEdge {
 	position: absolute;
 	top: 0;
 	height: 100%;
@@ -60,7 +60,7 @@ body {
 .triEdge.rightTri {
 	background-image: url(/img/rightTri.png);
 	right: -8.6%;
-}
+}*/
 
 .navbar .navbar-nav {
   display: inline-block;
