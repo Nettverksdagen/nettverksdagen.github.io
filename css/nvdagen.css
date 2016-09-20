@@ -35,6 +35,29 @@ body {
     top: 0;
 }
 
+.modal-content {
+	border-radius: 0px !important;
+	box-shadow: none !important;
+}
+
+.triEdge {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 8.6%;
+	background-size: 100% 100%;
+}
+
+.triEdge.leftTri {
+	left: -8.6%;
+	background-image: url(/img/leftTri.png);
+}
+
+.triEdge.rightTri {
+	background-image: url(/img/rightTri.png);
+	right: -8.6%;
+}
+
 .navbar .navbar-nav {
   display: inline-block;
   float: right;
