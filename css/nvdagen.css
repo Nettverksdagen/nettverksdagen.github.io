@@ -135,7 +135,7 @@ h2.logoType {
 	position: relative;
 }
 
-.hex-container::after {
+/*.hex-container::after {
     content: "";
     width: 1em;
     height: 1em;
@@ -146,7 +146,7 @@ h2.logoType {
     box-shadow: 0 0 7em 2.5em rgba(29, 72, 68, 0.4);
     z-index: -1;
     border-radius: 50%;
-}
+}*/
 
 .hex-container:hover {
     width: 11em;
