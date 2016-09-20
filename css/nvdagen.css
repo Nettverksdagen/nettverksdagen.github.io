@@ -53,6 +53,10 @@ body {
 	}
 }
 
+.navbar-collapse.in .navbar-nav, .navbar-collapse.collapsing .navbar-nav {
+	float: none;
+}
+
 h1.logoType {
 	font-size: 66px;
 	padding-top: 0;
