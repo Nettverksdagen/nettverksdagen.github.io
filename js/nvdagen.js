@@ -34,4 +34,16 @@ $(document).ready(function() {
 			});
 		}
 	});
+	
+	$("#navbar.in a").not(".dropdown-toggle").click(function(event) { 
+		$('.navbar-toggle').click();
+	});
+	
+	$(document).click(function(event) { 
+		if(!$(event.target).closest('#navbar').length) {
+			if($('#navbar').is(".in")) {
+				$('.navbar-toggle').click();
+			}
+		}        
+	});
 });
