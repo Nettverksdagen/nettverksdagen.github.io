@@ -95,23 +95,6 @@ h1.logoType {
 	padding: 0;
 }
 
-.hex-container .glyphicon, .hex-container .fa {
-	font-size: 3em;
-}
-
-.hex-container .fa-plus {
-	font-size: 3em;
-	transition: font-size 0.5s ease;
-	-webkit-transition: font-size 0.5s ease;
-
-}
-
-.hex-container:hover .fa-plus {
-	font-size: 4em;
-	transition: font-size 0.5s ease;
-	-webkit-transition: font-size 0.5s ease;
-}
-
 h2.logoType {
 	font-size: 44px;
 	padding-top: 0;
@@ -229,6 +212,30 @@ h2.logoType {
     position: relative;
     transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
+	transition: font-size 0.5s ease;
+	font-size: 1em;
+}
+
+.hex-container:hover * {
+	font-size: 1.2em;
+}
+
+
+.hex-container .glyphicon, .hex-container .fa {
+	font-size: 3em !important;
+}
+
+.hex-container .fa-plus {
+	font-size: 3em !important;
+	transition: font-size 0.5s ease;
+	-webkit-transition: font-size 0.5s ease;
+
+}
+
+.hex-container:hover .fa, .hex-container:hover .glyphicon {
+	font-size: 4em !important;
+	transition: font-size 0.5s ease;
+	-webkit-transition: font-size 0.5s ease;
 }
 
 .container-fluid {
