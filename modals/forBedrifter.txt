@@ -1,0 +1,4 @@
+﻿<header>For bedrifter</header>
+<content>
+	<p>asdf? asdf.</p>
+</content>

@@ -1,5 +1,6 @@
-﻿<header>Kontakt oss</header>
+﻿<header>Om oss</header>
 <content>
+	<p>Nettverksdagen er en karrieremesse arrangert av studenter på Kybernetikk og Robotikk studiet ved NTNU. Hensikten er å gi studentene mulighet til å møte sine fremtidige arbeidsgivere, få informasjon om sommerjobber og et innblikk i arbeidslivet.</p>
 	<ul>
 		<li>
 			<span>Markedsføring: <a href="mailto:somebody@nvdagen.no" target="_BLANK">somebody@nvdagen.no</a></span>
