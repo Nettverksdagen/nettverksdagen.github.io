@@ -95,7 +95,7 @@ h1.logoType {
 	padding: 0;
 }
 
-.infoCol .hex-container .glyphicon {
+.infoCol .hex-container .glyphicon, .infoCol .hex-container .fa {
 	font-size: 3em;
 }
 
