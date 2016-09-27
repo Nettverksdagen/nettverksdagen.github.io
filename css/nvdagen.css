@@ -95,8 +95,21 @@ h1.logoType {
 	padding: 0;
 }
 
-.infoCol .hex-container .glyphicon, .infoCol .hex-container .fa {
+.hex-container .glyphicon, .hex-container .fa {
 	font-size: 3em;
+}
+
+.hex-container .fa-plus {
+	font-size: 3em;
+	transition: font-size 0.5s ease;
+	-webkit-transition: font-size 0.5s ease;
+
+}
+
+.hex-container:hover .fa-plus {
+	font-size: 4em;
+	transition: font-size 0.5s ease;
+	-webkit-transition: font-size 0.5s ease;
 }
 
 h2.logoType {
