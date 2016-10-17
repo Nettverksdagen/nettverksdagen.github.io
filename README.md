@@ -1,6 +1,6 @@
 # rekrutteringsdagen.github.io
 
-## TODO
+## Forslag
 
 * Fjern tekst under foredrag, kveldsarrangement og stands. Blås opp header fonten slik at de tar mer plass. Vi kan fylle inn mer her når vi vet nærmere hva som skjer.
 * Fjern modal effekten fra bedriftlogoene. La heller bedriftlogoene linke til bedriftens nettside. 
