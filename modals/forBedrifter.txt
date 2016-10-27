@@ -1,6 +1,26 @@
-﻿<header>Vil din bedrift være på Nettverksdagen?</header>
+﻿<header></header>
 <content>
-<h3>Kontakt oss</h3>
-	<p>Nettverksdagen er en karrieredag arrangert av studenter ved Kybernetikk og Robotikk linjen ved NTNU. Dagen har som formål å la studenter få ett innblikk i hva som kan vente i arbeidslivet etter studiet er over.</p>
-    <p>Ønsker din bedrift å vise seg frem på Nettverksdagen 2017 kan dere ta kontakt på e-post. Send en e-post til <a href="mailto:bedrift@nvdagen.no" target="_BLANK">bedrift@nvdagen.no</a> så får dere svar med oversikt over hva vi kan tilby.</p>
+
+<div class="section">
+
+<div class="sectionTitle">
+<h1>Kontakt oss</h1>
+<div class="titleUnderline"></div>
+</div>
+
+<h4 class="modalText">Ønsker din bedrift å vise seg frem på Nettverksdagen 2017? <br> Ta kontakt på e-post så får dere svar med oversikt over hva vi kan tilby.</h4>
+
+<ul class="contactElements">
+    <li class="contactElement">
+        <h3 class="contactName">Bedriftskontakt</h3>
+        <p>E-post: <a href="mailto:bedrift@nvdagen.no" class="contactLink">bedrift@nvdagen.no</a></p>
+    </li>
+    <li class="contactElement">
+        <h3 class="contactName">Sponsorkontakt</h3>
+        <p>E-post: <a href="mailto:sponsor@nvdagen.no" class="contactLink">sponsor@nvdagen.no</a></p>
+    </li>
+</ul>
+
+</div>
+
 </content>

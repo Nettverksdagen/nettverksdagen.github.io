@@ -1,14 +1,56 @@
-﻿<header>Om oss</header>
+﻿<header></header>
 <content>
-	<p>Nettverksdagen er en karrieremesse arrangert av studenter på Kybernetikk og Robotikk studiet ved NTNU. Hensikten er å gi studentene mulighet til å møte sine fremtidige arbeidsgivere, få informasjon om sommerjobber og et innblikk i arbeidslivet.</p>
-	<ul>
-		<li>
-			<span>Markedsføring: <a href="mailto:somebody@nvdagen.no" target="_BLANK">somebody@nvdagen.no</a></span>
-			<p>For forspørsler angående... noe.</p>
-		</li>
-		<li>
-			<span>IT/web: <a href="mailto:somebody@nvdagen.no" target="_BLANK">somebody@nvdagen.no</a></span>
-			<p>For forspørsler angående... noe.</p>
-		</li>
-	</ul>
+
+<div class="section modalSection">
+<div class="sectionTitle">
+<h1>Styret</h1>
+<div class="titleUnderline"></div>
+</div>
+
+<img src="img/styret.png" style="width: 100%; padding-bottom: 1em; padding-top: 2em;">
+<p class="modalText">Bak fra venstre: Aleksander Hyggen Haarstad, Henning Ward, Fredrik Jensehaugen Arndal og Torjus Klafstad. Foran fra venstre: Marie Pauline Kristiansen og Ella-Lovise Rørvik.</p>
+
+<ul class="contactElements">
+	<li class="contactElement">
+		<h3 class="contactName">Henning Ward</h3>
+		<p class="contactTitle">Styreleder</p>
+		<p>Kontakt: <a href="mailto:henning.ward@nvdagen.no" class="contactLink">henning.ward@nvdagen.no</a></p>
+	</li>
+	<li class="contactElement">
+		<h3 class="contactName">Aleksander Hyggen Haarstad</h3>
+		<p class="contactTitle">Bedriftskontaktansvarlig</p>
+		<p>Kontakt: <a href="mailto:aleksander.haarstad@nvdagen.no" class="contactLink">aleksander.haarstad@nvdagen.no</a></p>
+	</li>
+	<li class="contactElement">
+		<h3 class="contactName">Ella-Lovise Rørvik</h3>
+		<p class="contactTitle">Logistikkansvarlig</p>
+		<p>Kontakt: <a href="mailto:ella-lovise.rorvik@nvdagen.no" class="contactLink">ella-lovise.rorvik@nvdagen.no</a></p>
+	</li>
+	<li class="contactElement">
+		<h3 class="contactName">Marie Pauline Kristiansen</h3>
+		<p class="contactTitle">Markedsføringsansvarlig</p>
+		<p>Kontakt: <a href="mailto:marie.kristiansen@nvdagen.no" class="contactLink">marie.kristiansen@nvdagen.no</a></p>
+	</li>
+	<li class="contactElement">
+		<h3 class="contactName">Fredrik Jenshaugen Arndal</h3>
+		<p class="contactTitle">Sponsoransvarlig</p>
+		<p>Kontakt: <a href="mailto:fredik.arndal@nvdagen.no" class="contactLink">fredrik.arndalk@nvdagen.no</a></p>
+	</li>
+	<li class="contactElement">
+		<h3 class="contactName">Torjus Klafstad</h3>
+		<p class="contactTitle">IT-ansvalig</p>
+		<p>Kontakt: <a href="mailto:torjus.klafstad@nvdagen.no" class="contactLink">torjus.klafstad@nvdagen.no</a></p>
+	</li>
+</ul>
+
+</div>
+
+<div class="section modalSection">
+<div class="sectionTitle">
+<h1>Om Nettverksdagen</h1>
+<div class="titleUnderline"></div>
+</div>
+<p class="modalText">Nettverksdagen er en karrieremesse arrangert av studenter på Kybernetikk og Robotikk studiet ved NTNU. Hensikten er å gi studentene mulighet til å møte sine fremtidige arbeidsgivere, få informasjon om sommerjobber og et innblikk i arbeidslivet. Overskuddet fra dagen går til å finansiere en faglig ekskursjon til Tokyo.</p>
+</div>
+
 </content>

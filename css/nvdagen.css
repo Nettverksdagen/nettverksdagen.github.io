@@ -244,7 +244,7 @@ h2.logoType {
 }
 
 .sectionTitle{
-
+	text-align: center;
 }
 
 .titleUnderline{
@@ -328,4 +328,41 @@ h2.logoType {
 .row.program{
 	padding-top: 3em;
 	padding-bottom: 3em;
+}
+
+
+.modalImgFullPage {
+	width: 23em;
+}
+
+.modalSection{
+	margin-bottom: 2em;
+}
+
+.modalText{
+	padding: 0.5em;
+	font-size: 1.2em;
+}
+
+.contactName{
+	font-size: 2em;
+	margin-bottom: 0em;
+}
+
+.contactTitle{
+	font-size: 1.2em;
+	margin-bottom: 0em;
+}
+
+
+.contactElements{
+	list-style: none;
+}
+
+.contactElement{
+	padding-bottom: 0em;
+}
+
+.contactLink {
+	color: #47afff; 
 }
