@@ -2,9 +2,9 @@
 
 ## Forslag
 
-* Fjern tekst under foredrag, kveldsarrangement og stands. Blås opp header fonten slik at de tar mer plass. Vi kan fylle inn mer her når vi vet nærmere hva som skjer.
-* Fjern modal effekten fra bedriftlogoene. La heller bedriftlogoene linke til bedriftens nettside. 
-* Fjern hovedsponsor greia. Vi kan ta den opp igjen om styret ønsker det. Jeg mener personlig at det faktum at vi ikke har hovedsponsor ikke burde vises frem.
+
+* Fikse slik at bedriftlenkene kun spanner hexagonen, ikke hele col'en
+* Legge til flere bedrifter.
 * "For bedrifter"-modalen kan få teksten:
 
 > Nettverksdagen er en karrieredag arrangert av studenter ved Kybernetikk og Robotikk linjen ved NTNU. Dagen har som formål å la studenter få ett innblikk i hva som kan vente i arbeidslivet etter studiet er over.
