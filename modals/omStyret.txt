@@ -32,7 +32,7 @@
 		<p>Kontakt: <a href="mailto:marie.kristiansen@nvdagen.no" class="contactLink">marie.kristiansen@nvdagen.no</a></p>
 	</li>
 	<li class="contactElement">
-		<h3 class="contactName">Fredrik Jenshaugen Arndal</h3>
+		<h3 class="contactName">Fredrik Jensehaugen Arndal</h3>
 		<p class="contactTitle">Sponsoransvarlig</p>
 		<p>Kontakt: <a href="mailto:fredik.arndal@nvdagen.no" class="contactLink">fredrik.arndalk@nvdagen.no</a></p>
 	</li>
