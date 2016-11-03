@@ -1,6 +1,12 @@
 body {
 	padding-top: 40px;
 	background-image: url(/img/vvlight_honeycomb_@2X.png);
+    max-width: 100vw;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    position: relative;
 }
 
 @font-face {
