@@ -1,12 +1,6 @@
 body {
 	padding-top: 40px;
 	background-image: url(/img/vvlight_honeycomb_@2X.png);
-    max-width: 100vw;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    position: relative;
 }
 
 @font-face {
@@ -98,10 +92,105 @@ h1.logoType {
     margin-top: 0;
 }
 
-.infoCol-text ul {
-	list-style-type: none;
-	padding: 0;
+.infoBackground#events{
+	background-image: url("/img/illu_glassgaard_background.jpg");
+	background-size: cover;
+	background-position: center;
+	min-height: 30em;
+	width: 100%;
+	margin: 0;
+	padding: 3em;
+	margin-bottom: 2em;
+	text-align: center;
+
 }
+
+.fullRow{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+.infoContent{
+	text-align: center;
+}
+
+h1.infoContent{
+	display: block;
+	text-align: center;
+	padding: 1em;
+	padding-left: 1em;
+	padding-right: 2em;
+	color: white;	
+}
+
+.infoText{
+	display: inline;
+	text-align: left;
+	padding: 1em;
+	padding-left: 1em;
+	padding-right: 2em;
+	color: white;	
+}
+
+.infoLogo{
+	display: inline;
+	text-align: left;
+	padding: 1em;
+	padding-left: 1em;
+	padding-right: 2em;
+	color: white;	
+}
+p.infoContent{
+	display: inline;
+	text-align: left;
+	padding: 1em;
+	padding-left: 1em;
+	padding-right: 2em;
+	color: white;	
+}
+i .infoContent{
+	display: inline;
+	text-align: left;
+	padding: 1em;
+	padding-left: 1em;
+	padding-right: 2em;
+	color: white;	
+}
+
+
+.infoCol {
+	text-align: center;
+	padding: 2pt;
+	text-align: left;
+	max-width: 70em;
+}
+
+
+.infoCol-text {
+	text-align: center;
+	font-size: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding: 1em;
+	color: white;
+}
+
+.infoCol-header {
+	text-align: center;
+	color: white;
+	font-size: 1.8em;
+}
+
+.infoImg{
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	padding-top: 1em;
+}
+
 
 h2.logoType {
 	font-size: 44px;
@@ -110,7 +199,6 @@ h2.logoType {
 } 
 
 .row {
-	max-width: 1150px;
 	margin: 0 auto;
 }
 
@@ -120,7 +208,7 @@ h2.logoType {
 
 .container-fluid.landingPage {
 	padding-top: 0em;
-	height: 30em;
+	height: 25em;
 	/*background: rgba(255,255,255,1);
 	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(254,254,254,1) 49%, rgba(252,252,252,0) 100%);
 	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(49%, rgba(254,254,254,1)), color-stop(100%, rgba(252,252,252,0)));
@@ -139,10 +227,11 @@ h2.logoType {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fcfcfc', GradientType=0 );
 }
 
-.container-fluid.infoSection{
-	/*height: 28em;*/
-	margin-top: 1em;
-	padding-bottom: 6em;
+.infoSection{
+	max-width: 70em;
+	text-align: center;
+	padding: auto;
+	margin: auto;
 }
 
 .navbar-brand {
@@ -167,6 +256,50 @@ h2.logoType {
 	width: 10em;
 	height: 10em;
 	margin: 0 auto;
+	text-align: center;
+	background-image: url("/img/400px-Regular_hexagon_solidFill_noBorder.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	transition: width 0.5s ease, top 0.5s ease, margin 0.5s ease, height 0.5s ease;
+	margin-bottom: 0em;
+	top: 0em;
+	position: relative;
+}
+
+.hex-container-static {
+	width: 10em;
+	height: 10em;
+	margin: 0 auto;
+	text-align: center;
+	background-image: url("/img/400px-Regular_hexagon_solidFill_noBorder.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.hex-container-static * {
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transition: font-size 0.5s ease;
+	font-size: 1em;
+}
+       
+.hex-container-static .glyphicon, .hex-container-static .fa {
+	font-size: 3em !important;
+}
+.fa{
+	color: #1E4845;
+}
+
+.glyphicon{
+	color: #1E4845;
+}
+
+.hex-container-lg {
+	width: 15em;
+	height: 15em;
+	margin: 0 auto;
 	background-image: url("/img/400px-Regular_hexagon_solidFill_noBorder.png");
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -184,11 +317,14 @@ h2.logoType {
     margin-bottom: -1em;
 }
 
-
-.hex-container.smallHex {
-	width: 3em;
-	height: 3em;
+.hex-container-lg:hover {
+    width: 16em;
+    height: 16em;
+    top: -0.5em;
+    margin-bottom: -1em;
 }
+
+
 
 .announcementContainer {
 	position: relative;
@@ -218,8 +354,20 @@ h2.logoType {
 	transition: font-size 0.5s ease;
 	font-size: 1em;
 }
-
 .hex-container:hover * {
+	font-size: 1.2em;
+}
+
+.hex-container-lg * {
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transition: font-size 0.5s ease;
+	font-size: 1em;
+}
+
+.hex-container-lg:hover * {
 	font-size: 1.2em;
 }
 
@@ -246,8 +394,9 @@ h2.logoType {
 }
 
 .container-fluid.companySection {
-
+	max-width: 65em;
 }
+
 
 .sectionTitle{
 	text-align: center;
@@ -261,6 +410,7 @@ h2.logoType {
 	background-color: #49887B;
 }
 
+
 .section:hover .titleUnderline{
 	margin: auto;
 	width: 20em;
@@ -272,6 +422,7 @@ h2.logoType {
 
 
 .companySection .company .imgContainer {
+	border-style: none;
     cursor: pointer;
     height: 6em;
     width: 6em;
@@ -281,6 +432,19 @@ h2.logoType {
     margin: 0 auto;
     background-position: 50% 50%;
 }
+
+.companySection .company .imgContainer-lg {
+	border-style: none;
+    cursor: pointer;
+    height: 9em;
+    width: 9em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-position: 50% 50%;
+}
+
+
 
 .companySection .company .hex-container {
 	cursor: pointer;
@@ -315,16 +479,24 @@ h2.logoType {
     background-image: url("/img/cLogos/Brunvoll_logo.png");
 }
 
-.companySection .company .imgContainer#prediktor {
+.companySection .company .imgContainer-lg#prediktor {
     background-image: url("/img/cLogos/Prediktor_logo.png");
 }
 
-.companySection .company .imgContainer#cisco {
+.companySection .company .imgContainer-lg#cisco {
     background-image: url("/img/cLogos/Cisco_logo.png");
 }
 
 .companySection .company .imgContainer#statnett {
     background-image: url("/img/cLogos/Statnett_logo.png");
+}
+
+.companySection .company .imgContainer#brunvoll {
+    background-image: url("/img/cLogos/Brunvoll_logo.png");
+}
+
+.companySection .company .imgContainer#kongsberg {
+    background-image: url("/img/cLogos/Kongsberg_logo.png");
 }
 
 .program{
