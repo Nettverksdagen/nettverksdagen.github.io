@@ -28,7 +28,17 @@ body {
 	border-radius: 0px !important;
 }
 
+@media (max-width: 576px) {                  
+   .small-srceen-hide {
+      display: none;
+   }
+}
 
+@media (min-width: 576px) {                  
+   .small-srceen-show {
+      display: none;
+   }
+}
 
 .brandBG {
     position: absolute;
@@ -163,7 +173,6 @@ i .infoContent{
 
 .infoCol {
 	text-align: center;
-	padding: 2pt;
 	text-align: left;
 	max-width: 70em;
 }
@@ -172,9 +181,9 @@ i .infoContent{
 .infoCol-text {
 	text-align: center;
 	font-size: 1em;
-	padding-left: 2em;
-	padding-right: 2em;
-	padding: 1em;
+	padding-left: 0em;
+	padding-right: 0em;
+	padding: 0.5em;
 	color: white;
 }
 
@@ -182,6 +191,7 @@ i .infoContent{
 	text-align: center;
 	color: white;
 	font-size: 1.8em;
+	margin-top: 0.5em;
 }
 
 #events p.infoCol-text, #events h2.infoCol-header {
