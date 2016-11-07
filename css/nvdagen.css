@@ -95,6 +95,7 @@ h1.logoType {
 .infoBackground#events{
 	background-image: url("/img/illu_glassgaard_background.jpg");
 	background-size: cover;
+	background-position: center;
 	min-height: 30em;
 	width: 100%;
 	margin: 0;
