@@ -497,6 +497,18 @@ h2.logoType {
     background-image: url("/img/cLogos/Kongsberg_logo.png");
 }
 
+.companySection .company .imgContainer#AW {
+    background-image: url("/img/cLogos/AW_logo.png");
+}
+
+.companySection .company .imgContainer#Forsvarsmateriell {
+    background-image: url("/img/cLogos/Forsvarsmateriell_logo.png");
+}
+
+.companySection .company .imgContainer#Hatteland {
+    background-image: url("/img/cLogos/Hatteland_logo.png");
+}
+
 .program{
 
 }
