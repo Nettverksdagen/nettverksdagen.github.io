@@ -97,6 +97,7 @@ body {
 }
 
 h1.logoType {
+	text-align: center;
 	font-size: 66px;
 	padding-top: 0;
     margin-top: 0;
