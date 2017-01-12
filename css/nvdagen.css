@@ -435,8 +435,8 @@ h2.logoType {
 }
 
 .companySection .company .imgContainer {
-    height: 6em;
-    width: 6em;
+    height: 7em;
+    width: 7em;
 }
 
 .companySection .company .imgContainer-lg {
@@ -518,6 +518,18 @@ h2.logoType {
 
 .companySection .company .imgContainer#Hatteland {
     background-image: url("/img/cLogos/Hatteland_logo.png");
+}
+
+.companySection .company .imgContainer#Lyse {
+    background-image: url("/img/cLogos/lyse_logo.png");
+}
+
+.companySection .company .imgContainer#NFA {
+    background-image: url("/img/cLogos/nfa_logo.png");
+}
+
+.companySection .company .imgContainer#Scanmatic {
+    background-image: url("/img/cLogos/scanmatic_logo.jpg");
 }
 
 .program{
