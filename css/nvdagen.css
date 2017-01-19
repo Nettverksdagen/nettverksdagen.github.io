@@ -299,6 +299,9 @@ h2.logoType {
 	transition: font-size 0.5s ease;
 	font-size: 1em;
 }
+
+
+
        
 .hex-container-static .glyphicon, .hex-container-static .fa {
 	font-size: 3em !important;
@@ -532,6 +535,14 @@ h2.logoType {
     background-image: url("/img/cLogos/scanmatic_logo.jpg");
 }
 
+.companySection .company .imgContainer#BaneNOR {
+    background-image: url("/img/cLogos/BaneNOR_logo.png");
+}
+
+.companySection .company .imgContainer#DataRespons {
+    background-image: url("/img/cLogos/DataRespons_logo.png");
+}
+
 .program{
 
 }
@@ -576,4 +587,122 @@ h2.logoType {
 
 .contactLink {
 	color: #47afff; 
+}
+
+.container-fluid.programSection {
+	max-width: 65em;
+}
+
+.row.program{
+	margin-top: 0em;
+	margin-bottom: 2em;
+}
+
+.programElement{
+	height: 5em;
+	margin: 5pt;
+	padding-top: 0;
+	position: relative;
+}
+
+.programLogo{
+	height: 5em;
+	width: 5em;
+	float: left;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	background-image: url("/img/400px-Regular_hexagon_solidFill_noBorder.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-bottom: 0em;
+	top: 0em;
+}
+
+.program-hex-container-static {
+	width: 5em;
+	height: 5em;
+	float: left;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	background-image: url("/img/400px-Regular_hexagon_solidFill_noBorder.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.program-hex-container-static * {
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transition: font-size 0.5s ease;
+	font-size: 1em;
+}
+       
+.program-hex-container-static .glyphicon, .program-hex-container-static .fa {
+	font-size: 2em !important;
+}
+
+.programContent{
+	width: 70%;
+	height: 5em;
+	float: left;
+	position: relative;
+	margin-left: 15pt;
+}
+
+.programTitle{
+	height: 2.5em;
+	float: left;
+	text-align: left;
+	display: table;
+	margin:0;
+}
+
+.programTitle>h3{
+	width: 29em;
+	display: table-cell;
+	vertical-align: bottom;
+	padding-bottom: 2pt;
+	font-size: 1.3em;
+}
+
+@media (max-width: 768px){
+.programTitle>h3{
+	width: 29em;
+	display: table-cell;
+	vertical-align: bottom;
+	padding-bottom: 2pt;
+	font-size: 1.1em;
+}
+
+.programContent{
+	width: 60%;
+	height: 6em;
+	float: left;
+	position: relative;
+	margin-left: 15pt;
+}
+}
+
+
+
+.programInfo{
+	height: 2.5em;
+	width: 20em;
+	float: left;	
+	text-align: left;
+	display: table;
+	margin:0;
+}
+
+.programInfo>p{
+	display: table-cell;
+	vertical-align: top;
+	padding-top: 2pt;
+}
+
+.presentationLogo{
+	width: 2em;
 }
