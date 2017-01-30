@@ -7,7 +7,7 @@
 <div class="titleUnderline"></div>
 </div>
 
-<img src="img/styret.png" style="width: 100%; padding-bottom: 1em; padding-top: 2em;">
+<img src="img/styret_1200px.jpg" style="width: 100%; padding-bottom: 1em; padding-top: 2em;">
 <p class="modalText">Bak fra venstre: Aleksander Hyggen Haarstad, Henning Ward, Fredrik Jensehaugen Arndal og Torjus Klafstad. Foran fra venstre: Marie Pauline Kristiansen og Ella-Lovise Rørvik.</p>
 
 <ul class="contactElements">
