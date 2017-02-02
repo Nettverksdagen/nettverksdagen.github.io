@@ -100,7 +100,8 @@ h1.logoType {
 	text-align: center;
 	font-size: 66px;
 	padding-top: 0;
-    margin-top: 0;
+    margin: 0 auto;
+    margin-bottom: 3pt;
 }
 
 .infoBackground#events{
@@ -542,6 +543,10 @@ h2.logoType {
 
 .companySection .company .imgContainer#DataRespons {
     background-image: url("/img/cLogos/DataRespons_logo.png");
+}
+
+.companySection .company .imgContainer#dnvgl {
+    background-image: url("/img/cLogos/dnv_gl_logo.jpg");
 }
 
 .program{
