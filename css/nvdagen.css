@@ -104,7 +104,7 @@ h1.logoType {
     margin-bottom: 3pt;
 }
 
-@media (max-width: 700px){
+/*@media (max-width: 700px){
 
 h1.logoType {
 	text-align: center;
@@ -114,7 +114,7 @@ h1.logoType {
     margin-bottom: 3pt;
 }
 
-}
+}*/
 
 .infoBackground#events{
 	background-image: url("/img/illu_glassgaard_background_2560px.jpg");
