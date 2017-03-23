@@ -9,7 +9,11 @@ function DayDiff(CurrentDate, compareDate) {
 		
 $(document).ready(function() {
 	var Today = new Date();
-	document.querySelector(".timeLeft").innerHTML = " - " + DayDiff(Today, "February, 10, 2017") + " dager igjen";
+	if(!!document.querySelector(".timeLeft")) {
+		document.querySelector(".timeLeft").innerHTML = " - " + DayDiff(Today, "February, 10, 2017") + " dager igjen";
+	} else {
+		/* timer inactive */
+	}
 	
 	$('.modal').modal('hide');
 	$('.toggleModal').click(function(ev){
