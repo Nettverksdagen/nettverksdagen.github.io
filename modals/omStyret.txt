@@ -14,34 +14,39 @@
 
 <ul class="contactElements">
 	<li class="contactElement">
-		<h3 class="contactName">Henning Ward</h3>
+		<h3 class="contactName">Johanne Kalland</h3>
 		<p class="contactTitle">Styreleder</p>
-		<p>Kontakt: <a href="mailto:henning.ward@nvdagen.no" class="contactLink">henning.ward@nvdagen.no</a></p>
+		<p>Kontakt: <a href="mailto:johanne.kalland@nvdagen.no" 
+		class="contactLink">johanne.kalland@nvdagen.no</a></p>
 	</li>
 	<li class="contactElement">
-		<h3 class="contactName">Aleksander Hyggen Haarstad</h3>
+		<h3 class="contactName">Filip Gornitzka Abelson</h3>
 		<p class="contactTitle">Bedriftskontaktansvarlig</p>
-		<p>Kontakt: <a href="mailto:aleksander.haarstad@nvdagen.no" class="contactLink">aleksander.haarstad@nvdagen.no</a></p>
+		<p>Kontakt: <a href="mailto:filip.abelson@nvdagen.no" 
+		class="contactLink">filip.abelson@nvdagen.no</a></p>
 	</li>
 	<li class="contactElement">
-		<h3 class="contactName">Ella-Lovise Rørvik</h3>
+		<h3 class="contactName">Øystein Molvik</h3>
 		<p class="contactTitle">Logistikkansvarlig</p>
-		<p>Kontakt: <a href="mailto:ella-lovise.rorvik@nvdagen.no" class="contactLink">ella-lovise.rorvik@nvdagen.no</a></p>
+		<p>Kontakt: <a href="mailto:oystein.molvik@nvdagen.no"
+		class="contactLink">oystein.molvik@nvdagen.no</a></p>
 	</li>
 	<li class="contactElement">
-		<h3 class="contactName">Marie Pauline Kristiansen</h3>
+		<h3 class="contactName">Eirik Ekfjord Vesterkjær</h3>
 		<p class="contactTitle">Markedsføringsansvarlig</p>
-		<p>Kontakt: <a href="mailto:marie.kristiansen@nvdagen.no" class="contactLink">marie.kristiansen@nvdagen.no</a></p>
+		<p>Kontakt: <a href="mailto:eirik.vesterkjaer@nvdagen.no"
+		class="contactLink">eirik.vesterkjaer@nvdagen.no</a></p>
 	</li>
 	<li class="contactElement">
-		<h3 class="contactName">Fredrik Jensehaugen Arndal</h3>
+		<h3 class="contactName">Oda Kiese</h3>
 		<p class="contactTitle">Sponsoransvarlig</p>
-		<p>Kontakt: <a href="mailto:fredik.arndal@nvdagen.no" class="contactLink">fredrik.arndal@nvdagen.no</a></p>
+		<p>Kontakt: <a href="mailto:oda.kiese@nvdagen.no"
+		class="contactLink">oda.kiese@nvdagen.no</a></p>
 	</li>
 	<li class="contactElement">
-		<h3 class="contactName">Torjus Klafstad</h3>
+		<h3 class="contactName">Tobias Bergkvist</h3>
 		<p class="contactTitle">IT-ansvarlig</p>
-		<p>Kontakt: <a href="mailto:torjus.klafstad@nvdagen.no" class="contactLink">torjus.klafstad@nvdagen.no</a></p>
+		<p>Kontakt: <a href="mailto:tobias.bergkvist@nvdagen.no" class="contactLink">tobias.bergkvist@nvdagen.no</a></p>
 	</li>
 </ul>
 
