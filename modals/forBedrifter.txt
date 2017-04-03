@@ -8,7 +8,7 @@
 <div class="titleUnderline"></div>
 </div>
 
-<h4 class="modalText">Ønsker din bedrift å vise seg frem på Nettverksdagen 2017? <br> Ta kontakt på e-post så får dere svar med oversikt over hva vi kan tilby.</h4>
+<h4 class="modalText">Ønsker din bedrift å vise seg frem på Nettverksdagen 2018? <br> Ta kontakt på e-post så får dere svar med oversikt over hva vi kan tilby.</h4>
 
 <ul class="contactElements">
     <li class="contactElement">
