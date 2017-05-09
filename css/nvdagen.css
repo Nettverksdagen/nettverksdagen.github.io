@@ -104,6 +104,12 @@ h1.logoType {
     margin-bottom: 3pt;
 }
 
+h3.subTitle {
+	text-align: center;
+	font-style: italic;
+	font-weight: normal;
+}
+
 /*@media (max-width: 700px){
 
 h1.logoType {
