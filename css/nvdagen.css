@@ -96,6 +96,16 @@ body {
 	float: none;
 }
 
+@media only screen and (max-width: 640px) {
+h1.logoType {
+	text-align: center;
+	font-size: 44px;
+	padding-top: 0;
+    margin: 0 auto;
+    margin-bottom: 3pt;
+}
+	
+}
 h1.logoType {
 	text-align: center;
 	font-size: 66px;
