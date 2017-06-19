@@ -52,10 +52,7 @@
 
 </div>
 
-<div class="section modalSection">
-<div class="sectionTitle">
-<h1>Om Nettverksdagen</h1>
-<div class="titleUnderline"></div>
+
 
 
 </content>
