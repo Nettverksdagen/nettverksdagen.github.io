@@ -99,7 +99,7 @@ body {
 @media (max-width: 640px) {
 h1.logoType {
 	text-align: center;
-	font-size: 33px;
+	font-size: 10px;
 	padding-top: 0;
     margin: 0 auto;
     margin-bottom: 3pt;
