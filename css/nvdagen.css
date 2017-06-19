@@ -96,19 +96,21 @@ body {
 	float: none;
 }
 
-@media (max-width: 640px) {
-h1.logoType {
-	text-align: center;
-	font-size: 100px;
-	padding-top: 0;
-    margin: 0 auto;
-    margin-bottom: 3pt;
-}
+
 	
 }
 h1.logoType {
 	text-align: center;
 	font-size: 66px;
+	padding-top: 0;
+    margin: 0 auto;
+    margin-bottom: 3pt;
+}
+
+@media (max-width: 640px) {
+h1.logoType {
+	text-align: center;
+	font-size: 100px;
 	padding-top: 0;
     margin: 0 auto;
     margin-bottom: 3pt;
