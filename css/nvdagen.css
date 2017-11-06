@@ -511,6 +511,9 @@ h2.logoType {
 .companySection .company .imgContainer#Bekk {
     background-image: url("/img/cLogos/Bekk_logo.PNG");
 }
+.companySection .company .imgContainer#DNV_GL {
+    background-image: url("/img/cLogos/DNV_GL_logo.PNG");
+}
 
 .companySection .company .imgContainer#ABB {
     background-image: url("/img/cLogos/ABB_logo.png");
