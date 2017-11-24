@@ -7,10 +7,10 @@
 <div class="titleUnderline"></div>
 </div>
 
-<!--
-<img src="img/styret_1200px.jpg" style="width: 100%; padding-bottom: 1em; padding-top: 2em;">
-<p class="modalText">Bak fra venstre: Aleksander Hyggen Haarstad, Henning Ward, Fredrik Jensehaugen Arndal og Torjus Klafstad. Foran fra venstre: Marie Pauline Kristiansen og Ella-Lovise Rørvik.</p>
--->
+
+<img src="img/styret.jpg" style="width: 100%; padding-bottom: 1em; padding-top: 2em;">
+<p class="modalText">Fra venstre: Filip Gornitzka Abelson, Eirik Ekfjord Vesterkjær, Tobias Bergkvist, Johanne Kalland, Nicolai A. Hoel, Oda Kiese og Øystein Molvik.</p>
+
 
 <ul class="contactElements">
 	<li class="contactElement">
