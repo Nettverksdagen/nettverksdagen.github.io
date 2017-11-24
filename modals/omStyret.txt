@@ -34,7 +34,7 @@
 	<li class="contactElement">
 		<h3 class="contactName">Eirik Ekfjord Vesterkjær</h3>
 		<p class="contactTitle">Markedsføringsansvarlig</p>
-		<p>Kontakt: <a href="markedsfoering@nvdagen.no"
+		<p>Kontakt: <a href="mailto:markedsfoering@nvdagen.no"
 		class="contactLink">markedsfoering@nvdagen.no</a></p>
 	</li>
 	<li class="contactElement">
