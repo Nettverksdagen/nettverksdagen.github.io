@@ -515,8 +515,18 @@ h2.logoType {
     background-image: url("/img/cLogos/DNV_GL_logo.PNG");
 }
 
-.companySection .company .imgContainer#ABB {
-    background-image: url("/img/cLogos/ABB_logo.png");
+.companySection .company .imgContainer#avanade {
+    background-image: url("/img/cLogos/avanade.png");
+}
+.companySection .company .imgContainer#applica {
+    background-image: url("/img/cLogos/applica.png");
+}
+
+.companySection .company .imgContainer#disruptiveTechnologies {
+    background-image: url("/img/cLogos/DisruptiveTechnologies_logo.png");
+}
+.companySection .company .imgContainer#honeywell {
+    background-image: url("/img/cLogos/Honeywell_logo.png");
 }
 
 .companySection .company .imgContainer#kBerg {
