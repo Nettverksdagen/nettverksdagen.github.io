@@ -514,6 +514,12 @@ h2.logoType {
 .companySection .company .imgContainer#Bekk {
     background-image: url("/img/cLogos/Bekk_logo.PNG");
 }
+.companySection .company .imgContainer#airthings {
+    background-image: url("/img/cLogos/Airthings_Logo_standard_Grey_Web-4.png");
+}
+.companySection .company .imgContainer#deloitte {
+    background-image: url("/img/cLogos/deloitte-logo.png");
+}
 .companySection .company .imgContainer#imatis {
     background-image: url("/img/cLogos/ImatisBoxLogo3.png");
 }
