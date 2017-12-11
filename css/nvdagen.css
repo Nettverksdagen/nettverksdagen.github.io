@@ -508,6 +508,9 @@ h2.logoType {
 	padding-top: 0em;
 }
 
+.companySection .company .imgContainer#sintef {
+    background-image: url("/img/cLogos/sintef.png");
+}
 .companySection .company .imgContainer#Bekk {
     background-image: url("/img/cLogos/Bekk_logo.PNG");
 }
