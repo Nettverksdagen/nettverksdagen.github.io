@@ -514,6 +514,9 @@ h2.logoType {
 .companySection .company .imgContainer#Bekk {
     background-image: url("/img/cLogos/Bekk_logo.PNG");
 }
+.companySection .company .imgContainer#imatis {
+    background-image: url("/img/cLogos/ImatisBoxLogo3.png");
+}
 .companySection .company .imgContainer#DNV_GL {
     background-image: url("/img/cLogos/DNV_GL_logo.PNG");
 }
