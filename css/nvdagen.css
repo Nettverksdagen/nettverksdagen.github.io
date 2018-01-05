@@ -508,6 +508,9 @@ h2.logoType {
 	padding-top: 0em;
 }
 
+.companySection .company .imgContainer#systek {
+    background-image: url("/img/cLogos/Systek_logo.jpg");
+}
 .companySection .company .imgContainer#sintef {
     background-image: url("/img/cLogos/sintef.png");
 }
