@@ -510,16 +510,15 @@ h2.logoType {
 
 .companySection .company .imgContainer#NorskHydro {
     background-image: url("/img/cLogos/NorskHydro_logo.pdf");
-	
+}
 .companySection .company .imgContainer#Techni {
     background-image: url("/img/cLogos/Tehcni_logo.pdf");
-
+}
 .companySection .company .imgContainer#Computas {
-    background-image: url("/img/cLogos/Computas_logo.jpeg");
-	
+    background-image: url("/img/cLogos/Computas_logo.jpeg");	
+}
 .companySection .company .imgContainer#NorgesBank {
-    background-image: url("/img/cLogos/NorgesBank_logo.png");
-	
+    background-image: url("/img/cLogos/NorgesBank_logo.png");	
 }.companySection .company .imgContainer#ScatecSolar {
     background-image: url("/img/cLogos/ScatecSolar_logo.jpg");
 }
