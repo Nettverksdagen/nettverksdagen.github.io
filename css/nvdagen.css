@@ -507,7 +507,11 @@ h2.logoType {
     text-align: center;
 	padding-top: 0em;
 }
-
+.companySection .company .imgContainer#NorgesBank {
+    background-image: url("/img/cLogos/NorgesBank_logo.jpg");
+}.companySection .company .imgContainer#ScatecSolar {
+    background-image: url("/img/cLogos/ScatecSolar_logo.jpg");
+}
 .companySection .company .imgContainer#systek {
     background-image: url("/img/cLogos/Systek_logo.jpg");
 }
