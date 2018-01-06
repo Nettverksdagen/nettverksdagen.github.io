@@ -508,9 +508,15 @@ h2.logoType {
 	padding-top: 0em;
 }
 
+.companySection .company .imgContainer#NorskHydro {
+    background-image: url("/img/cLogos/NorskHydro_logo.pdf");
+	
+.companySection .company .imgContainer#Techni {
+    background-image: url("/img/cLogos/Tehcni_logo.pdf");
 
 .companySection .company .imgContainer#Computas {
-    background-image: url("/img/cLogos/Computas_lgo.jpeg");
+    background-image: url("/img/cLogos/Computas_logo.jpeg");
+	
 .companySection .company .imgContainer#NorgesBank {
     background-image: url("/img/cLogos/NorgesBank_logo.png");
 	
