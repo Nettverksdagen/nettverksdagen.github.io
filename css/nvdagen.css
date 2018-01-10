@@ -508,6 +508,9 @@ h2.logoType {
 	padding-top: 0em;
 }
 
+.companySection .company .imgContainer#EllipticLabs {
+    background-image: url("/img/cLogos/EllipticLabs_logo.jpg");
+}
 .companySection .company .imgContainer#Visma {
     background-image: url("/img/cLogos/Visma_logo.jpg");
 }
