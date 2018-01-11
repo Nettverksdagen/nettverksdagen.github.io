@@ -507,7 +507,9 @@ h2.logoType {
     text-align: center;
 	padding-top: 0em;
 }
-
+.companySection .company .imgContainer#Atea {
+    background-image: url("/img/cLogos/Atea_logo.eps");
+}
 .companySection .company .imgContainer#EllipticLabs {
     background-image: url("/img/cLogos/EllipticLabs_logo.jpg");
 }
