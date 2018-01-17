@@ -1,6 +1,8 @@
 body {
-	padding-top: 41px;
+	padding-top: 40px;
 	background-image: url(../img/vvlight_honeycomb_@2X.png);
+
+
 }
 
 @font-face {
@@ -56,26 +58,8 @@ body {
 	box-shadow: none !important;
 }
 
-/*.triEdge {
-	position: absolute;
-	top: 0;
-	height: 100%;
-	width: 8.6%;
-	background-size: 100% 100%;
-}
-
-.triEdge.leftTri {
-	left: -8.6%;
-	background-image: url(/img/leftTri.png);
-}
-
-.triEdge.rightTri {
-	background-image: url(/img/rightTri.png);
-	right: -8.6%;
-}*/
 
 .navbar .navbar-nav {
-  display: inline-block;
   float: right;
   vertical-align: top;
 }
@@ -104,7 +88,7 @@ h1.logoType {
 	font-size: 66px;
 	padding-top: 0;
     margin: 0 auto;
-    margin-bottom: 3pt;
+    margin-bottom: 6px;
 }
 
 @media (max-width: 640px) {
@@ -113,7 +97,7 @@ h1.logoType {
 	font-size: 44px;
 	padding-top: 0;
     margin: 0 auto;
-    margin-bottom: 3pt;
+    margin-bottom: 6px;
 	}
 }
 
@@ -123,17 +107,6 @@ h3.subTitle {
 	font-weight: normal !important;
 }
 
-/*@media (max-width: 700px){
-
-h1.logoType {
-	text-align: center;
-	font-size: 44px;
-	padding-top: 0;
-    margin: 0 auto;
-    margin-bottom: 3pt;
-}
-
-}*/
 
 .infoBackground#events{
 	background-image: url("../img/illu_glassgaard_background_2560px.jpg");
@@ -295,7 +268,7 @@ h2.logoType {
 	font-size: 17px;
 }
 
-.navbar-brand .logoType, .footerContainer .logoType {
+.navbar-brand .logoType, .footerContainer {
     font-size: 30px;
     vertical-align: -1px;
 }
@@ -775,7 +748,6 @@ h2.logoType {
 	position: relative;
 	margin-left: 15pt;
 }
-}
 
 
 
@@ -786,6 +758,7 @@ h2.logoType {
 	text-align: left;
 	display: table;
 	margin:0;
+	width: 100%;
 }
 
 .programInfo>p{
