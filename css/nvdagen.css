@@ -480,6 +480,9 @@ h2.logoType {
     text-align: center;
 	padding-top: 0em;
 }
+.companySection .company .imgContainer#Nevion {
+    background-image: url("../img/cLogos/Nevion_logo.png");
+}
 .companySection .company .imgContainer#Atea {
     background-image: url("../img/cLogos/Atea_logo.png");
 }
