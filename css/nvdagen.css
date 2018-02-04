@@ -66,13 +66,13 @@ body {
 
 @media (min-width: 1200px) {
 	.navbar .container {
-		width: 1024px !important;
+		width: 1200px !important;
 	}
 }
 
 @media (min-width: 768px) {
 	.navbar .container {
-		width: 703px;
+		width: 100%;
 	}
 }
 
