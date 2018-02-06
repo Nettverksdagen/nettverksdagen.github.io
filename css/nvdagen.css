@@ -481,8 +481,77 @@ h2.logoType {
 	padding-top: 0em;
 }
 
+/*Sponsorer*/
+.companySection .company .imgContainer-lg#Sintef {
+    background-image: url("../img/sponsors/Sintef_logo.png");
+}
+.companySection .company .imgContainer-lg#Pstereo {
+    background-image: url("../img/sponsors/Pstereo_logo.png");
+}
+.companySection .company .imgContainer-lg#Akademika {
+    background-image: url("../img/sponsors/Akademika_logo.png");
+}
+.companySection .company .imgContainer#Microsoft {
+    background-image: url("../img/sponsors/Microsoft_logo.png");
+}
+.companySection .company .imgContainer#TrondheimTorg {
+    background-image: url("../img/sponsors/TrondheimTorg_logo.png");
+}
+.companySection .company .imgContainer#SanSebastianSolsiden {
+    background-image: url("../img/sponsors/SanSebastianSolsiden_logo.png");
+}
+.companySection .company .imgContainer#Cutters {
+    background-image: url("../img/sponsors/Cutters_logo.png");
+}
+.companySection .company .imgContainer#Øyafestivalen {
+    background-image: url("../img/sponsors/Øyafestivalen_logo.png");
+}
+.companySection .company .imgContainer#Vipps {
+    background-image: url("../img/sponsors/Vipps_logo.png");
+}
+.companySection .company .imgContainer#TheSense {
+    background-image: url("../img/sponsors/TheSense_logo.png");
+}
+.companySection .company .imgContainer#Samfundet {
+    background-image: url("../img/sponsors/Samfundet_logo.png");
+}
+.companySection .company .imgContainer#NilleMoholt {
+    background-image: url("../img/sponsors/NilleMoholt_logo.png");
+}
+.companySection .company .imgContainer#GSportTiller {
+    background-image: url("../img/sponsors/GSportTiller_logo.png");
+}
+.companySection .company .imgContainer#Rbk {
+    background-image: url("../img/sponsors/Rbk_logo.png");
+}
+.companySection .company .imgContainer#Sabrura {
+    background-image: url("../img/sponsors/Sabrura_logo.png");
+}
+.companySection .company .imgContainer#Redbull {
+    background-image: url("../img/sponsors/Redbull_logo.png");
+}
+.companySection .company .imgContainer#Kieldsberg {
+    background-image: url("../img/sponsors/Kieldsberg_logo.png");
+}
+.companySection .company .imgContainer#EscapeAdventures {
+    background-image: url("../img/sponsors/EscapeAdventures_logo.png");
+}
+.companySection .company .imgContainer#Ringnes {
+    background-image: url("../img/sponsors/Ringnes_logo.png");
+}
+.companySection .company .imgContainer#SolsidenSpa {
+    background-image: url("../img/sponsors/SolsidenSpa_logo.png");
+}
+.companySection .company .imgContainer#EgonTyholt {
+    background-image: url("../img/sponsors/EgonTyholt_logo.png");
+}
 
 
+
+
+
+
+/*Bedrifter*/
 .companySection .company .imgContainer#Cognite {
     background-image: url("../img/cLogos/Cognite_logo.png");
 }
@@ -524,9 +593,6 @@ h2.logoType {
 .companySection .company .imgContainer#systek {
     background-image: url("../img/cLogos/Systek_logo.jpg");
 }
-.companySection .company .imgContainer#sintef {
-    background-image: url("../img/sponsors/Sintef_logo.png");
-}
 .companySection .company .imgContainer#Bekk {
     background-image: url("../img/cLogos/Bekk_logo.PNG");
 }
@@ -542,85 +608,66 @@ h2.logoType {
 .companySection .company .imgContainer#DNV_GL {
     background-image: url("../img/cLogos/DNV_GL_logo.PNG");
 }
-
 .companySection .company .imgContainer#avanade {
     background-image: url("../img/cLogos/avanade.png");
 }
 .companySection .company .imgContainer#applica {
     background-image: url("../img/cLogos/applica.png");
 }
-
 .companySection .company .imgContainer#disruptiveTechnologies {
     background-image: url("../img/cLogos/DisruptiveTechnologies_logo.png");
 }
 .companySection .company .imgContainer#honeywell {
     background-image: url("../img/cLogos/Honeywell_logo.png");
 }
-
 .companySection .company .imgContainer#kBerg {
     background-image: url("../img/cLogos/Kongsberg_Automotive.png");
 }
-
 .companySection .company .imgContainer#sSteria {
     background-image: url("../img/cLogos/SopraSteria_logo.png");
 }
-
 .companySection .company .imgContainer#bVoll {
     background-image: url("../img/cLogos/Brunvoll_logo.png");
 }
-
 .companySection .company .imgContainer-lg#prediktor {
     background-image: url("../img/cLogos/Prediktor_logo.png");
 }
-
 .companySection .company .imgContainer-lg#cisco {
     background-image: url("../img/cLogos/Cisco_logo.png");
 }
-
 .companySection .company .imgContainer#statnett {
     background-image: url("../img/cLogos/Statnett_logo.png");
 }
-
 .companySection .company .imgContainer#brunvoll {
     background-image: url("../img/cLogos/Brunvoll_logo.png");
 }
-
 .companySection .company .imgContainer#kongsberg {
     background-image: url("../img/cLogos/Kongsberg_logo.png");
 }
-
 .companySection .company .imgContainer#AW {
     background-image: url("../img/cLogos/AW_logo.png");
 }
-
 .companySection .company .imgContainer#Forsvarsmateriell {
     background-image: url("../img/cLogos/Forsvarsmateriell_logo.png");
 }
-
 .companySection .company .imgContainer#Hatteland {
     background-image: url("../img/cLogos/Hatteland_logo.png");
 }
-
 .companySection .company .imgContainer#Lyse {
     background-image: url("../img/cLogos/lyse_logo.png");
 }
-
 .companySection .company .imgContainer#NFEA {
     background-image: url("../img/cLogos/NFEA_logo.png");
 }
-
 .companySection .company .imgContainer#Scanmatic {
     background-image: url("../img/cLogos/scanmatic_logo.jpg");
 }
-
 .companySection .company .imgContainer#BaneNOR {
     background-image: url("../img/cLogos/BaneNOR_logo.png");
 }
-
 .companySection .company .imgContainer#DataRespons {
     background-image: url("../img/cLogos/DataRespons_logo.png");
 }
-
 .companySection .company .imgContainer#dnvgl {
     background-image: url("../img/cLogos/dnv_gl_logo.JPG");
 }
