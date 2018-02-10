@@ -320,6 +320,20 @@ h2.logoType {
 	color: #1E4845;
 }
 
+
+.hex-container-md {
+	width: 13em;
+	height: 13em;
+	margin: 0 auto;
+	background-image: url("../img/400px-Regular_hexagon_solidFill_noBorder.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+    transition: width 0.5s ease, top 0.5s ease, margin 0.5s ease, height 0.5s ease;
+	margin-bottom: 0em;
+	top: 0em;
+	position: relative;
+}
+
 .hex-container-lg {
 	width: 15em;
 	height: 15em;
@@ -337,6 +351,13 @@ h2.logoType {
 .hex-container:hover {
     width: 11em;
     height: 11em;
+    top: -0.5em;
+    margin-bottom: -1em;
+}
+
+.hex-container-md:hover {
+    width: 14em;
+    height: 14em;
     top: -0.5em;
     margin-bottom: -1em;
 }
@@ -370,7 +391,16 @@ h2.logoType {
 .logoContainer {
 }
 
+
 .hex-container * {
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transition: font-size 0.5s ease, height 0.5s ease, width 0.5s ease;
+	font-size: 1em;
+}
+.hex-container-md * {
     top: 50%;
     position: relative;
     transform: translateY(-50%);
@@ -447,6 +477,10 @@ h2.logoType {
     height: 7em;
     width: 7em;
 }
+.companySection .company .imgContainer-md {
+    height: 8em;
+    width: 8em;
+}
 
 .companySection .company .imgContainer-lg {
     height: 9em;
@@ -454,6 +488,7 @@ h2.logoType {
 }
 
 .companySection .company .imgContainer,
+.companySection .company .imgContainer-md,
 .companySection .company .imgContainer-lg {
 	border-style: none;
     cursor: pointer;
@@ -530,8 +565,8 @@ h2.logoType {
 .companySection .company .imgContainer#Redbull {
     background-image: url("../img/sponsors/Redbull_logo.png");
 }
-.companySection .company .imgContainer#Kieldsberg {
-    background-image: url("../img/sponsors/Kieldsberg_logo.png");
+.companySection .company .imgContainer#Kjeldsberg {
+    background-image: url("../img/sponsors/Kjeldsberg_logo.png");
 }
 .companySection .company .imgContainer#EscapeAdventures {
     background-image: url("../img/sponsors/EscapeAdventures_logo.png");
@@ -552,11 +587,68 @@ h2.logoType {
 
 
 /*Bedrifter*/
-.companySection .company .imgContainer#AkerBP {
-    background-image: url("../img/cLogos/AkerBP_logo.png");
+
+.companySection .company .imgContainer-lg#Nevion {
+    background-image: url("../img/cLogos/Nevion_logo.png");
 }
-.companySection .company .imgContainer#Cognite {
-    background-image: url("../img/cLogos/Cognite_logo.png");
+.companySection .company .imgContainer-lg#Atea {
+    background-image: url("../img/cLogos/Atea_logo.png");
+}
+.companySection .company .imgContainer-lg#ScatecSolar {
+    background-image: url("../img/cLogos/ScatecSolar_logo.jpg");
+}
+.companySection .company .imgContainer-lg#Imatis {
+    background-image: url("../img/cLogos/ImatisBoxLogo3.png");
+}
+.companySection .company .imgContainer-lg#Honeywell {
+    background-image: url("../img/cLogos/Honeywell_logo.png");
+}
+.companySection .company .imgContainer-lg#DataRespons {
+    background-image: url("../img/cLogos/DataRespons_logo.png");
+}
+.companySection .company .imgContainer-lg#BaneNOR {
+    background-image: url("../img/cLogos/BaneNOR_logo.png");
+}
+.companySection .company .imgContainer-lg#NorgesBank {
+    background-image: url("../img/cLogos/NorgesBank_logo.png");
+}
+
+
+
+
+.companySection .company .imgContainer-md#dnvgl {
+    background-image: url("../img/cLogos/dnv_gl_logo.JPG");
+}
+.companySection .company .imgContainer-md#Systek {
+    background-image: url("../img/cLogos/Systek_logo.jpg");
+}
+.companySection .company .imgContainer-md#Applica {
+    background-image: url("../img/cLogos/applica.png");
+}
+.companySection .company .imgContainer-md#sSteria {
+    background-image: url("../img/cLogos/SopraSteria_logo.png");
+}
+.companySection .company .imgContainer-md#Computas {
+    background-image: url("../img/cLogos/Computas_logo.jpeg");
+}
+.companySection .company .imgContainer-md#EllipticLabs {
+    background-image: url("../img/cLogos/EllipticLabs_logo.jpg");
+}
+.companySection .company .imgContainer-md#avanade {
+    background-image: url("../img/cLogos/avanade.png");
+}
+.companySection .company .imgContainer-md#disruptiveTechnologies {
+    background-image: url("../img/cLogos/DisruptiveTechnologies_logo.png");
+}
+.companySection .company .imgContainer-md#airthings {
+    background-image: url("../img/cLogos/Airthings_Logo_standard_Grey_Web-4.png");
+}
+
+
+
+
+.companySection .company .imgContainer#Scanmatic {
+    background-image: url("../img/cLogos/scanmatic_logo.jpg");
 }
 .companySection .company .imgContainer#Statoil {
     background-image: url("../img/cLogos/Statoil_logo.png");
@@ -567,15 +659,7 @@ h2.logoType {
 .companySection .company .imgContainer#Pwc {
     background-image: url("../img/cLogos/Pwc_logo.png");
 }
-.companySection .company .imgContainer#Nevion {
-    background-image: url("../img/cLogos/Nevion_logo.png");
-}
-.companySection .company .imgContainer#Atea {
-    background-image: url("../img/cLogos/Atea_logo.png");
-}
-.companySection .company .imgContainer#EllipticLabs {
-    background-image: url("../img/cLogos/EllipticLabs_logo.jpg");
-}
+
 .companySection .company .imgContainer#Visma {
     background-image: url("../img/cLogos/Visma_logo.jpg");
 }
@@ -585,59 +669,28 @@ h2.logoType {
 .companySection .company .imgContainer#Techni {
     background-image: url("../img/cLogos/Techni_logo.png");
 }
-.companySection .company .imgContainer#Computas {
-    background-image: url("../img/cLogos/Computas_logo.jpeg");
-}
-.companySection .company .imgContainer#NorgesBank {
-    background-image: url("../img/cLogos/NorgesBank_logo.png");
-}.companySection .company .imgContainer#ScatecSolar {
-    background-image: url("../img/cLogos/ScatecSolar_logo.jpg");
-}
-.companySection .company .imgContainer#systek {
-    background-image: url("../img/cLogos/Systek_logo.jpg");
-}
+
 .companySection .company .imgContainer#Bekk {
     background-image: url("../img/cLogos/Bekk_logo.PNG");
 }
-.companySection .company .imgContainer#airthings {
-    background-image: url("../img/cLogos/Airthings_Logo_standard_Grey_Web-4.png");
-}
+
 .companySection .company .imgContainer#deloitte {
     background-image: url("../img/cLogos/deloitte-logo.png");
 }
-.companySection .company .imgContainer#imatis {
-    background-image: url("../img/cLogos/ImatisBoxLogo3.png");
-}
+
 .companySection .company .imgContainer#DNV_GL {
     background-image: url("../img/cLogos/DNV_GL_logo.PNG");
 }
-.companySection .company .imgContainer#avanade {
-    background-image: url("../img/cLogos/avanade.png");
-}
-.companySection .company .imgContainer#applica {
-    background-image: url("../img/cLogos/applica.png");
-}
-.companySection .company .imgContainer#disruptiveTechnologies {
-    background-image: url("../img/cLogos/DisruptiveTechnologies_logo.png");
-}
-.companySection .company .imgContainer#honeywell {
-    background-image: url("../img/cLogos/Honeywell_logo.png");
-}
+
+
 .companySection .company .imgContainer#kBerg {
     background-image: url("../img/cLogos/Kongsberg_Automotive.png");
 }
-.companySection .company .imgContainer#sSteria {
-    background-image: url("../img/cLogos/SopraSteria_logo.png");
-}
+
 .companySection .company .imgContainer#bVoll {
     background-image: url("../img/cLogos/Brunvoll_logo.png");
 }
-.companySection .company .imgContainer-lg#prediktor {
-    background-image: url("../img/cLogos/Prediktor_logo.png");
-}
-.companySection .company .imgContainer-lg#cisco {
-    background-image: url("../img/cLogos/Cisco_logo.png");
-}
+
 .companySection .company .imgContainer#statnett {
     background-image: url("../img/cLogos/Statnett_logo.png");
 }
@@ -647,33 +700,18 @@ h2.logoType {
 .companySection .company .imgContainer#kongsberg {
     background-image: url("../img/cLogos/Kongsberg_logo.png");
 }
-.companySection .company .imgContainer#AW {
-    background-image: url("../img/cLogos/AW_logo.png");
-}
-.companySection .company .imgContainer#Forsvarsmateriell {
-    background-image: url("../img/cLogos/Forsvarsmateriell_logo.png");
-}
-.companySection .company .imgContainer#Hatteland {
-    background-image: url("../img/cLogos/Hatteland_logo.png");
-}
 .companySection .company .imgContainer#Lyse {
     background-image: url("../img/cLogos/lyse_logo.png");
 }
 .companySection .company .imgContainer#NFEA {
     background-image: url("../img/cLogos/NFEA_logo.png");
 }
-.companySection .company .imgContainer#Scanmatic {
-    background-image: url("../img/cLogos/scanmatic_logo.jpg");
+
+
+.companySection .company .imgContainer#AkerBP {
+    background-image: url("../img/cLogos/AkerBP_logo.png");
 }
-.companySection .company .imgContainer#BaneNOR {
-    background-image: url("../img/cLogos/BaneNOR_logo.png");
-}
-.companySection .company .imgContainer#DataRespons {
-    background-image: url("../img/cLogos/DataRespons_logo.png");
-}
-.companySection .company .imgContainer#dnvgl {
-    background-image: url("../img/cLogos/dnv_gl_logo.JPG");
-}
+
 
 .program{
 
