@@ -646,10 +646,12 @@ h2.logoType {
 
 
 
+.companySection .company .imgContainer#WaterLinked {
+    background-image: url("../img/cLogos/WaterLinked_logo.png");
+}
 .companySection .company .imgContainer#AW {
     background-image: url("../img/cLogos/AW_logo.png");
 }
-
 .companySection .company .imgContainer#Scanmatic {
     background-image: url("../img/cLogos/scanmatic_logo.jpg");
 }
@@ -662,7 +664,6 @@ h2.logoType {
 .companySection .company .imgContainer#Pwc {
     background-image: url("../img/cLogos/Pwc_logo.png");
 }
-
 .companySection .company .imgContainer#Visma {
     background-image: url("../img/cLogos/Visma_logo.jpg");
 }
@@ -672,28 +673,21 @@ h2.logoType {
 .companySection .company .imgContainer#Techni {
     background-image: url("../img/cLogos/Techni_logo.png");
 }
-
 .companySection .company .imgContainer#Bekk {
     background-image: url("../img/cLogos/Bekk_logo.PNG");
 }
-
 .companySection .company .imgContainer#deloitte {
     background-image: url("../img/cLogos/deloitte-logo.png");
 }
-
 .companySection .company .imgContainer#DNV_GL {
     background-image: url("../img/cLogos/DNV_GL_logo.PNG");
 }
-
-
 .companySection .company .imgContainer#kBerg {
     background-image: url("../img/cLogos/Kongsberg_Automotive.png");
 }
-
 .companySection .company .imgContainer#bVoll {
     background-image: url("../img/cLogos/Brunvoll_logo.png");
 }
-
 .companySection .company .imgContainer#statnett {
     background-image: url("../img/cLogos/Statnett_logo.png");
 }
