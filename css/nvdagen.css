@@ -646,6 +646,9 @@ h2.logoType {
 
 
 
+.companySection .company .imgContainer#AW {
+    background-image: url("../img/cLogos/AW_logo.png");
+}
 
 .companySection .company .imgContainer#Scanmatic {
     background-image: url("../img/cLogos/scanmatic_logo.jpg");
