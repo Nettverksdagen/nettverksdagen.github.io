@@ -580,6 +580,15 @@ h2.logoType {
 .companySection .company .imgContainer#EgonTyholt {
     background-image: url("../img/sponsors/EgonTyholt_logo.png");
 }
+.companySection .company .imgContainer#Dahls {
+    background-image: url("../img/sponsors/DahlsBryggeri_logo.png");
+}
+.companySection .company .imgContainer#Kadetten {
+    background-image: url("../img/sponsors/Kadetten_logo.png");
+}
+.companySection .company .imgContainer#SuperHeroBurger {
+    background-image: url("../img/sponsors/SuperHeroBurger_logo.png");
+}
 
 
 
