@@ -146,7 +146,11 @@
 			</div>
 		</div>
 	</div>
-</div>
+
+    <!--<div id='map' style="width: 100%; height: 400px;"></div>-->
+
+
+
 
 <div class="container-fluid programSection section text-center" id="program">
 	<div class="sectionTitle">
@@ -212,6 +216,8 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/nvdagen.js"></script>
 	<script src="js/jquery.fittext.js"></script>
+    <!--<link rel="stylesheet" href="https://api.mazemap.com/js/v2.0.6/mazemap.min.css">
+    <script type='text/javascript' src='https://api.mazemap.com/js/v2.0.6/mazemap.min.js'></script>-->
 	<script>
 		$(".infoCol-header").fitText();
 	</script>
@@ -225,5 +231,21 @@
 		ga('create', 'UA-84462651-1', 'auto');
 		ga('send', 'pageview');
 	</script>
+    <!--<script>
+        var map = new Mazemap.Map({
+            // container id specified in the HTML
+            container: 'map',
+
+            campuses: 1,
+
+            // initial position in lngLat format
+            center: {lng: 10.401683, lat: 63.418352},
+
+            // initial zoom
+            zoom: 18,
+
+            zLevel: 1
+        });
+    </script>-->
   </body>
 </html>
