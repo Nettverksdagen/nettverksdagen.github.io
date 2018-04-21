@@ -24,7 +24,7 @@ $(document).ready(function() {
 		} else {
 			console.log(this);
 			var pid = $(this).data('modal');
-			$.get('/modals/' + pid + '.txt', function(data){
+			$.get('/modals/' + pid + '.html', function(data){
 				var headerRegex = /(?:<header>)(.|[\r\n])*(?:<\/header>)/g;
 				var contentRegex = /(?:<content>)(.|[\r\n])*(?:<\/content>)/g;
 				var headerContent = headerRegex.exec(data)[0];
