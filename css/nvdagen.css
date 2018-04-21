@@ -510,7 +510,8 @@ h2.logoType {
     border-top: solid 1px #eee;
     padding-bottom: 1.25em;
     text-align: center;
-	padding-top: 0em;
+		padding-top: 0em;
+		margin-top: 1em;
 }
 
 /*Sponsorer*/
