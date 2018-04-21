@@ -1,20 +1,11 @@
-function DayDiff(CurrentDate, compareDate) {
-			var TYear=CurrentDate.getFullYear();
-			var TDay=new Date(compareDate);
-			TDay.getFullYear(TYear);
-			var DayCount=(TDay-CurrentDate)/(1000*60*60*24);
-			DayCount=Math.round(DayCount); 
-			return(DayCount);
-		}
+function hoursBetween(dateBefore, dateAfter) {
+    return Math.round((dateAfter - dateBefore) / (1000*60*60*24));
+}
 		
 $(document).ready(function() {
-	var Today = new Date();
-	if(!!document.querySelector(".timeLeft")) {
-		document.querySelector(".timeLeft").innerHTML = " - " + DayDiff(Today, "January, 31, 2018") + " dager igjen";
-	} else {
-		/* timer inactive */
-	}
-	
+	var eventDate = new Date("January, 31, 2019");
+	$('.timeLeft').text(hoursBetween(new Date(), eventDate));
+
 	$('.modal').modal('hide');
 	$('.toggleModal').click(function(ev){
 		ev.preventDefault();
