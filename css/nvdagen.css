@@ -454,6 +454,7 @@ h2.logoType {
 
 .sectionTitle{
 	text-align: center;
+	display: inline-block;
 }
 
 .titleUnderline{
@@ -466,11 +467,7 @@ h2.logoType {
 
 .section:hover .titleUnderline{
 	margin: auto;
-	width: 20em;
-	transition: width 0.5s ease;
-	height: 0.3em;
-	background-color: #49887B;
-
+	width: 100%;
 }
 
 .companySection .company .imgContainer {
