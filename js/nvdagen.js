@@ -10,7 +10,7 @@ function DayDiff(CurrentDate, compareDate) {
 $(document).ready(function() {
 	var Today = new Date();
 	if(!!document.querySelector(".timeLeft")) {
-		document.querySelector(".timeLeft").innerHTML = " - " + DayDiff(Today, "February, 15, 2018") + " dager igjen";
+		document.querySelector(".timeLeft").innerHTML = " - " + DayDiff(Today, "January, 31, 2018") + " dager igjen";
 	} else {
 		/* timer inactive */
 	}
@@ -18,11 +18,9 @@ $(document).ready(function() {
 	$('.modal').modal('hide');
 	$('.toggleModal').click(function(ev){
 		ev.preventDefault();
-		console.log("toggle modal executed");
 		if (!!document.querySelector('body.modal-open')) {
 			$('.modal').modal('hide');
 		} else {
-			console.log(this);
 			var pid = $(this).data('modal');
 			$.get('/modals/' + pid + '.html', function(data){
 				var headerRegex = /(?:<header>)(.|[\r\n])*(?:<\/header>)/g;
