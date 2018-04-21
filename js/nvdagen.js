@@ -32,10 +32,9 @@ $(document).ready(function() {
         event.preventDefault();
         var ref = $(event.currentTarget).attr('href');
         var target = $(ref);
-        console.log(ref, target, target.offset(), offset);
         if (!target) return;
         $('html, body').animate({
-            scrollTop: (target.offset()-offset) + 'px',
+            scrollTop: (target.offset().top-offset) + 'px',
         }, 'fast');
     });
 
