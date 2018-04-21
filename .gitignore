@@ -1,4 +1,5 @@
 ﻿/.vs/slnx.sqlite
 .idea/
 *.swap
+*.swp
 \.DS_Store
