@@ -846,13 +846,14 @@ h2.logoType {
 	font-size: 1.3em;
 }
 
-@media (max-width: 768px){
-.programTitle>h3{
-	width: 29em;
-	display: table-cell;
-	vertical-align: bottom;
-	padding-bottom: 2pt;
-	font-size: 1.1em;
+@media (max-width: 768px) {
+	.programTitle > h3 {
+		width: 29em;
+		display: table-cell;
+		vertical-align: bottom;
+		padding-bottom: 2pt;
+		font-size: 1.1em;
+	}
 }
 
 .programContent{
