@@ -36,7 +36,17 @@ $(document).ready(function() {
 			});
 		}
 	});
-	
+	var offset = 200;
+    $('.navigate').click(function(event) {
+        event.preventDefault();
+        var ref = $(event.currentTarget).attr('href');
+        var target = $(ref);
+        if (!target) return;
+        $('html, body').animate({
+            scrollTop: (target.offset()-offset) + 'px',
+        }, 'fast');
+    });
+
 	$("#navbar.in a").not(".dropdown-toggle").click(function(event) { 
 		$('.navbar-toggle').click();
 	});
