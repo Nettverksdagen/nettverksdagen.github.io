@@ -885,3 +885,9 @@ h2.logoType {
 .presentationLogo{
 	width: 2em;
 }
+
+.modal-open {
+    overflow-y: inherit !important;
+}
+
+
