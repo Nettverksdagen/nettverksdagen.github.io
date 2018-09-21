@@ -8,19 +8,19 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<!-- The link rel glosses over icons -->
-	<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+	<link rel="apple-touch-icon" sizes="57x57" href="/img/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/img/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/img/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/img/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/img/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/img/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/img/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/img/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/img/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
 	<link rel="manifest" href="/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -34,10 +34,10 @@
 	<title>Stillinger</title>
 
 	<!-- Bootstrap core CSS -->
-	<link href="css/nvdagen_bootstrap.min.css" rel="stylesheet">
+	<link href="/css/nvdagen_bootstrap.min.css" rel="stylesheet">
 	
 	<!-- Custom NVDagen CSS -->
-	<link href="css/nvdagen.css" rel="stylesheet">
+	<link href="/css/nvdagen.css" rel="stylesheet">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -45,4 +45,134 @@
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
   </head>
+  <body>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+          <div class="brandBG"></div>
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand navigate" href="../"><img alt="Nettverksdagen" src="/Nettverksdagen/Nvdagen_transparent_fill_rect.png"><span class="logoType"> Nettverksdagen</span></a>
+          </div>
+          <div id = "navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                  <li><a href="../">Hjem</a></li>
+                  <li><a href="../#program">Program</a></li>
+                  <li><a href="../#bedrifter">Bedrifter</a></li>
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-has-popup="true" aria-expanded="false">Kontakt <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="#" class="toggleModal" data-modal="omStyret">Styret</a></li>
+                          <li><a href="#" class="toggleModal" data-modal="forBedrifter">For bedrifter</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="#" class="toggleModal" data-modal="Om">Om</a></li>
+                  <li><a href="../blogg">Blogg</a></li>
+                  <li><a href="https://www.facebook.com/nvdagen" target="_BLANK"><i class="fa fa-facebook-square"></i></a></li>
+                  <li><a href="https://www.linkedin.com/company/nettverksdagen-ntnu" target="_BLANK"><i class="fa fa-linkedin-square"></i></a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+  <h1 class="logoType text-left">Stillingsannonser:</h1>
+
+  <div class="row" style="padding-top: 25px; padding-left: 50px; padding-right: 50px;">
+      <div class="col-md-3 col-sm-4">
+          <div class="panel panel-default" style="border-radius: 10px; border: none; box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); padding: 15px;">
+              <div class="panel-body padding-4">
+                  <img alt="Nettverksdagen" src="/Nettverksdagen/Nvdagen_transparent_fill_rect.png" style="width: 100%">
+                  <h3>Summer internship 2019</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec felis at felis placerat convallis. Proin nec imperdiet sem. Morbi libero tortor, pharetra ut scelerisque et, ultricies et sapien.</p>
+                  <p>Frist: 20. januar</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3 col-sm-4">
+          <div class="panel panel-default" style="border-radius: 10px; border: none; box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); padding: 15px;">
+              <div class="panel-body padding-4">
+                  <img alt="Nettverksdagen" src="/Nettverksdagen/Nvdagen_transparent_fill_rect.png" style="width: 100%">
+                  <h3>Summer internship 2019</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec felis at felis placerat convallis. Proin nec imperdiet sem. Morbi libero tortor, pharetra ut scelerisque et, ultricies et sapien.</p>
+                  <p>Frist: 20. januar</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3 col-sm-4">
+          <div class="panel panel-default" style="border-radius: 10px; border: none; box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); padding: 15px;">
+              <div class="panel-body padding-4">
+                  <img alt="Nettverksdagen" src="/Nettverksdagen/Nvdagen_transparent_fill_rect.png" style="width: 100%">
+                  <h3>Summer internship 2019</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec felis at felis placerat convallis. Proin nec imperdiet sem. Morbi libero tortor, pharetra ut scelerisque et, ultricies et sapien.</p>
+                  <p>Frist: 20. januar</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3 col-sm-4">
+          <div class="panel panel-default" style="border-radius: 10px; border: none; box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); padding: 15px;">
+              <div class="panel-body padding-4">
+                  <img alt="Nettverksdagen" src="/Nettverksdagen/Nvdagen_transparent_fill_rect.png" style="width: 100%">
+                  <h3>Summer internship 2019</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec felis at felis placerat convallis. Proin nec imperdiet sem. Morbi libero tortor, pharetra ut scelerisque et, ultricies et sapien.</p>
+                  <p>Frist: 20. januar</p>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="container-fluid footerContainer"><!--Nettverksdagen © 201-->
+      <h3><span>Nettverksdagen © 2018</span></h3>
+      <!--		<h2><span class="logoType">Nettverksdagen © 2018</span></h2>
+-->
+  </div>
+
+  <div tabindex="-1" class="modal fade">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="triEdge leftTri"></div>
+              <div class="triEdge rightTri"></div>
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title">Laster tittel...</h4>
+              </div>
+
+              <div class="modal-body">
+
+                  Laster innhold...
+
+              </div>
+
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-white" data-dismiss="modal">Lukk</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/nvdagen.js"></script>
+  <script src="/js/jquery.fittext.js"></script>
+  <!--<link rel="stylesheet" href="https://api.mazemap.com/js/v2.0.6/mazemap.min.css">
+  <script type='text/javascript' src='https://api.mazemap.com/js/v2.0.6/mazemap.min.js'></script>-->
+  <script>
+      $(".infoCol-header").fitText();
+  </script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-84462651-1', 'auto');
+      ga('send', 'pageview');
+  </script>
+  </body>
 </html>
