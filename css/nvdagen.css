@@ -756,10 +756,12 @@ h2.logoType {
 
 
 .contactElements{
+	margin-top: 1rem;
 	list-style: none;
 }
 
 .contactElement{
+	margin-top: 1rem;
 	padding-bottom: 0em;
 }
 
@@ -890,6 +892,16 @@ h2.logoType {
     padding-left:0 !important;
     padding-right:0 !important;
     overflow-y: inherit !important;
+}
+
+.thumb {
+	background-repeat:no-repeat;
+	background-position: center top;
+	width: 100%;
+	height: 100;
+	position: relative;
+	background-size: cover;
+
 }
 
 
