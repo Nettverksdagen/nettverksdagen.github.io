@@ -563,7 +563,7 @@ h2.logoType {
 .companySection .company .imgContainer#Redbull {
     background-image: url("../img/sponsors/Redbull_logo.png");
 }
-.companySection .company .imgContainer#Kjeldsberg {
+.companySection .company .imgContainer-lg#Kjeldsberg {
     background-image: url("../img/sponsors/Kjeldsberg_logo.png");
 }
 .companySection .company .imgContainer#EscapeAdventures {
@@ -710,8 +710,6 @@ h2.logoType {
 .companySection .company .imgContainer#NFEA {
     background-image: url("../img/cLogos/NFEA_logo.png");
 }
-
-
 .companySection .company .imgContainer#AkerBP {
     background-image: url("../img/cLogos/AkerBP_logo.png");
 }
